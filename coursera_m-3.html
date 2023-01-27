@@ -1,0 +1,56 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width,initial-scale=1" />
+        <link href="coursera_m-3.css" rel="stylesheet">
+        <script>
+            var a=0;
+            function fun()
+            {
+                if(a==0)
+                {
+                    document.querySelector(".navbar").style.marginBottom = "0px";
+                    document.querySelector(".jmp-menu-item").style.display = "flex";
+                    a=1;
+                }
+                else
+                {
+                    document.querySelector(".navbar").style.marginBottom = "20px";
+                    document.querySelector(".jmp-menu-item").style.display = "none";
+                    a=0;
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <div class="main">
+            <div class="navbar jmp1-lg-12 jmp1-md-12 jmp1-sm-12">
+                <div class="logo">jk</div>
+                <div class="jmp1-md-0 jmp1-lg-0 menu"><span class="jmp1-m-icon" onclick="fun()">|||</span></div>
+            </div>
+            <div class="jmp1-md-0 jmp1-lg-0 jmp-menu-item">
+                <a href="#">JMP1</a>
+                <a href="#">JMP2</a>
+                <a href="#">JMP3</a>
+            </div>
+            <div class="jmp1-lg-12 jmp1-md-12 jmp1-sm-12 maintitle">JMP</div>
+            <div class="jmp1-lg-4 jmp1-md-6 jmp1-sm-12 d123">
+                <div class="cont">
+                    <div class="title">JMP1</div>
+                    <p>hello my name name is hardik ,i thank to you for coursera,its amazing exprience for me... i learn many new things and thank you so much again...</p>
+                </div>
+            </div>
+            <div class="jmp1-lg-4 jmp1-md-6 jmp1-sm-12 d123">
+                <div class="cont">
+                    <div class="title">JMP2</div>
+                    <p>hello my name name is hardik ,i thank to you for coursera,its amazing exprience for me... i learn many new things and thank you so much again...</p>
+                </div>
+            </div>
+            <div class="jmp1-lg-4 jmp1-md-12 jmp1-sm-12 d123">
+                <div class="cont">
+                    <div class="title">JMP3</div>
+                    <p>hello my name name is hardik ,i thank to you for coursera,its amazing exprience for me... i learn many new things and thank you so much again...</p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
